@@ -4,10 +4,10 @@ import java.util.ArrayList;
 
 public class EasyKata {
 
-    public static ArrayList<Integer> getOrderedEvens(ArrayList<Integer> randomInts) {
-      ArrayList<Integer> evenInts = extractEvens(randomInts);
-      return bubbleSort(evenInts);
-    }
+  public static ArrayList<Integer> getOrderedEvens(ArrayList<Integer> randomInts) {
+    ArrayList<Integer> evenInts = extractEvens(randomInts);
+    return bubbleSort(evenInts);
+  }
 
   private static ArrayList<Integer> bubbleSort(ArrayList<Integer> evenInts) {
     for(int i = 0; i < evenInts.size() - 1; i++) {
