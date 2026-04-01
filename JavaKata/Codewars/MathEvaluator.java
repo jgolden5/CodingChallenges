@@ -13,6 +13,23 @@ public class MathEvaluator {
     return rpnCalculator(cleanPostfixArrayList);
   }
 
+/* 
+5+3*6/(3 - 1)
+5 3 6 3 1
++ * / ( - )
+
+2 3 6 5
+* / +
+
+6 6 5
+/ +
+
+1 5
++
+
+6
+
+*/
   double rpnCalculator(ArrayList<String> postfixArrayList) {
     Stack<Double> operandStack = new Stack<>();
     for(String token : postfixArrayList) {
