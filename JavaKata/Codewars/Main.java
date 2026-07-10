@@ -2,9 +2,10 @@ package Codewars;
 
 public class Main {
   public static void main(String[] args) {
-    System.out.println(TriangleTester.isTriangle(2, 3, 4)); //t
-    System.out.println(TriangleTester.isTriangle(2, 4, 4)); //t
-    System.out.println(TriangleTester.isTriangle(9, 9, 9)); //t
-    System.out.println(TriangleTester.isTriangle(1, 9, 4)); //f
+    String custname = request.getParameter("customerName");
+    String query = "SELECT account_balance FROM user_data WHERE user_name = ? ";  
+    PreparedStatement pstmt = connection.prepareStatement( query );
+    pstmt.setString(1, custname);
+    ResultSet results = pstmt.executeQuery( );
   }
 }
