@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/codewars_run.dir/link.d CMakeFiles/codewars_run.dir/main.cpp.o CMakeFiles/codewars_run.dir/sentence_smash.cpp.o -o codewars_run

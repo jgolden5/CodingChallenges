@@ -1,0 +1,3 @@
+/home/jonathan-11045964/CodingChallenges/CPP/build/CMakeFiles/codewars_run.dir
+/home/jonathan-11045964/CodingChallenges/CPP/build/CMakeFiles/edit_cache.dir
+/home/jonathan-11045964/CodingChallenges/CPP/build/CMakeFiles/rebuild_cache.dir
