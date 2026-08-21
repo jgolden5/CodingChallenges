@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/jonathan-11045964/CodingChallenges/CPP/main.cpp" "CMakeFiles/codewars_run.dir/main.cpp.o" "gcc" "CMakeFiles/codewars_run.dir/main.cpp.o.d"
-  "/home/jonathan-11045964/CodingChallenges/CPP/sentence_smash.cpp" "CMakeFiles/codewars_run.dir/sentence_smash.cpp.o" "gcc" "CMakeFiles/codewars_run.dir/sentence_smash.cpp.o.d"
+  "/home/jonathan-11045964/CodingChallenges/CPP/src/combat.cpp" "CMakeFiles/codewars_run.dir/src/combat.cpp.o" "gcc" "CMakeFiles/codewars_run.dir/src/combat.cpp.o.d"
+  "/home/jonathan-11045964/CodingChallenges/CPP/src/main.cpp" "CMakeFiles/codewars_run.dir/src/main.cpp.o" "gcc" "CMakeFiles/codewars_run.dir/src/main.cpp.o.d"
   "" "codewars_run" "gcc" "CMakeFiles/codewars_run.dir/link.d"
   )
 

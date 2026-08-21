@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/codewars_run.dir/link.d"
-  "CMakeFiles/codewars_run.dir/main.cpp.o"
-  "CMakeFiles/codewars_run.dir/main.cpp.o.d"
-  "CMakeFiles/codewars_run.dir/sentence_smash.cpp.o"
-  "CMakeFiles/codewars_run.dir/sentence_smash.cpp.o.d"
+  "CMakeFiles/codewars_run.dir/src/combat.cpp.o"
+  "CMakeFiles/codewars_run.dir/src/combat.cpp.o.d"
+  "CMakeFiles/codewars_run.dir/src/main.cpp.o"
+  "CMakeFiles/codewars_run.dir/src/main.cpp.o.d"
   "codewars_run"
   "codewars_run.pdb"
 )

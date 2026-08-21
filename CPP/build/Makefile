@@ -136,53 +136,53 @@ codewars_run/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/codewars_run.dir/build.make CMakeFiles/codewars_run.dir/build
 .PHONY : codewars_run/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+src/combat.o: src/combat.cpp.o
+.PHONY : src/combat.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/codewars_run.dir/build.make CMakeFiles/codewars_run.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/combat.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/codewars_run.dir/build.make CMakeFiles/codewars_run.dir/src/combat.cpp.o
+.PHONY : src/combat.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+src/combat.i: src/combat.cpp.i
+.PHONY : src/combat.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/codewars_run.dir/build.make CMakeFiles/codewars_run.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/combat.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/codewars_run.dir/build.make CMakeFiles/codewars_run.dir/src/combat.cpp.i
+.PHONY : src/combat.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+src/combat.s: src/combat.cpp.s
+.PHONY : src/combat.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/codewars_run.dir/build.make CMakeFiles/codewars_run.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/combat.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/codewars_run.dir/build.make CMakeFiles/codewars_run.dir/src/combat.cpp.s
+.PHONY : src/combat.cpp.s
 
-sentence_smash.o: sentence_smash.cpp.o
-.PHONY : sentence_smash.o
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
 
 # target to build an object file
-sentence_smash.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/codewars_run.dir/build.make CMakeFiles/codewars_run.dir/sentence_smash.cpp.o
-.PHONY : sentence_smash.cpp.o
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/codewars_run.dir/build.make CMakeFiles/codewars_run.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
 
-sentence_smash.i: sentence_smash.cpp.i
-.PHONY : sentence_smash.i
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-sentence_smash.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/codewars_run.dir/build.make CMakeFiles/codewars_run.dir/sentence_smash.cpp.i
-.PHONY : sentence_smash.cpp.i
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/codewars_run.dir/build.make CMakeFiles/codewars_run.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-sentence_smash.s: sentence_smash.cpp.s
-.PHONY : sentence_smash.s
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-sentence_smash.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/codewars_run.dir/build.make CMakeFiles/codewars_run.dir/sentence_smash.cpp.s
-.PHONY : sentence_smash.cpp.s
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/codewars_run.dir/build.make CMakeFiles/codewars_run.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -194,12 +194,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... codewars_run"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... sentence_smash.o"
-	@echo "... sentence_smash.i"
-	@echo "... sentence_smash.s"
+	@echo "... src/combat.o"
+	@echo "... src/combat.i"
+	@echo "... src/combat.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/jonathan-11045964/CodingChallenges/CPP/build",
+  "command": "/usr/bin/c++    -o CMakeFiles/codewars_run.dir/src/main.cpp.o -c /home/jonathan-11045964/CodingChallenges/CPP/src/main.cpp",
+  "file": "/home/jonathan-11045964/CodingChallenges/CPP/src/main.cpp",
+  "output": "CMakeFiles/codewars_run.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/jonathan-11045964/CodingChallenges/CPP/build",
+  "command": "/usr/bin/c++    -o CMakeFiles/codewars_run.dir/src/combat.cpp.o -c /home/jonathan-11045964/CodingChallenges/CPP/src/combat.cpp",
+  "file": "/home/jonathan-11045964/CodingChallenges/CPP/src/combat.cpp",
+  "output": "CMakeFiles/codewars_run.dir/src/combat.cpp.o"
+}
+]
