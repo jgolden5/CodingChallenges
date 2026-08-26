@@ -7,8 +7,8 @@
 },
 {
   "directory": "/home/jonathan-11045964/CodingChallenges/CPP/build",
-  "command": "/usr/bin/c++    -o CMakeFiles/codewars_run.dir/src/friendOrFoe.cpp.o -c /home/jonathan-11045964/CodingChallenges/CPP/src/friendOrFoe.cpp",
-  "file": "/home/jonathan-11045964/CodingChallenges/CPP/src/friendOrFoe.cpp",
-  "output": "CMakeFiles/codewars_run.dir/src/friendOrFoe.cpp.o"
+  "command": "/usr/bin/c++    -o CMakeFiles/codewars_run.dir/src/findDeletedNumber.cpp.o -c /home/jonathan-11045964/CodingChallenges/CPP/src/findDeletedNumber.cpp",
+  "file": "/home/jonathan-11045964/CodingChallenges/CPP/src/findDeletedNumber.cpp",
+  "output": "CMakeFiles/codewars_run.dir/src/findDeletedNumber.cpp.o"
 }
 ]

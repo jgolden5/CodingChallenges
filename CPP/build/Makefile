@@ -136,29 +136,29 @@ codewars_run/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/codewars_run.dir/build.make CMakeFiles/codewars_run.dir/build
 .PHONY : codewars_run/fast
 
-src/friendOrFoe.o: src/friendOrFoe.cpp.o
-.PHONY : src/friendOrFoe.o
+src/findDeletedNumber.o: src/findDeletedNumber.cpp.o
+.PHONY : src/findDeletedNumber.o
 
 # target to build an object file
-src/friendOrFoe.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/codewars_run.dir/build.make CMakeFiles/codewars_run.dir/src/friendOrFoe.cpp.o
-.PHONY : src/friendOrFoe.cpp.o
+src/findDeletedNumber.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/codewars_run.dir/build.make CMakeFiles/codewars_run.dir/src/findDeletedNumber.cpp.o
+.PHONY : src/findDeletedNumber.cpp.o
 
-src/friendOrFoe.i: src/friendOrFoe.cpp.i
-.PHONY : src/friendOrFoe.i
+src/findDeletedNumber.i: src/findDeletedNumber.cpp.i
+.PHONY : src/findDeletedNumber.i
 
 # target to preprocess a source file
-src/friendOrFoe.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/codewars_run.dir/build.make CMakeFiles/codewars_run.dir/src/friendOrFoe.cpp.i
-.PHONY : src/friendOrFoe.cpp.i
+src/findDeletedNumber.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/codewars_run.dir/build.make CMakeFiles/codewars_run.dir/src/findDeletedNumber.cpp.i
+.PHONY : src/findDeletedNumber.cpp.i
 
-src/friendOrFoe.s: src/friendOrFoe.cpp.s
-.PHONY : src/friendOrFoe.s
+src/findDeletedNumber.s: src/findDeletedNumber.cpp.s
+.PHONY : src/findDeletedNumber.s
 
 # target to generate assembly for a file
-src/friendOrFoe.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/codewars_run.dir/build.make CMakeFiles/codewars_run.dir/src/friendOrFoe.cpp.s
-.PHONY : src/friendOrFoe.cpp.s
+src/findDeletedNumber.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/codewars_run.dir/build.make CMakeFiles/codewars_run.dir/src/findDeletedNumber.cpp.s
+.PHONY : src/findDeletedNumber.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -194,9 +194,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... codewars_run"
-	@echo "... src/friendOrFoe.o"
-	@echo "... src/friendOrFoe.i"
-	@echo "... src/friendOrFoe.s"
+	@echo "... src/findDeletedNumber.o"
+	@echo "... src/findDeletedNumber.i"
+	@echo "... src/findDeletedNumber.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

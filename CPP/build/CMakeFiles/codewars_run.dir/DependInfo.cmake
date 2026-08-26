@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/jonathan-11045964/CodingChallenges/CPP/src/friendOrFoe.cpp" "CMakeFiles/codewars_run.dir/src/friendOrFoe.cpp.o" "gcc" "CMakeFiles/codewars_run.dir/src/friendOrFoe.cpp.o.d"
+  "/home/jonathan-11045964/CodingChallenges/CPP/src/findDeletedNumber.cpp" "CMakeFiles/codewars_run.dir/src/findDeletedNumber.cpp.o" "gcc" "CMakeFiles/codewars_run.dir/src/findDeletedNumber.cpp.o.d"
   "/home/jonathan-11045964/CodingChallenges/CPP/src/main.cpp" "CMakeFiles/codewars_run.dir/src/main.cpp.o" "gcc" "CMakeFiles/codewars_run.dir/src/main.cpp.o.d"
   "" "codewars_run" "gcc" "CMakeFiles/codewars_run.dir/link.d"
   )

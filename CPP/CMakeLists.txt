@@ -4,8 +4,8 @@ project(Codewars)
 
 set(SOURCES
   src/main.cpp
-  src/friendOrFoe.cpp
-  include/friendOrFoe.h
+  src/findDeletedNumber.cpp
+  include/findDeletedNumber.h
 )
 
 add_executable(codewars_run ${SOURCES})
