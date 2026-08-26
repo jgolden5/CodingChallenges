@@ -1,1 +1,1 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/codewars_run.dir/link.d CMakeFiles/codewars_run.dir/src/main.cpp.o CMakeFiles/codewars_run.dir/src/combat.cpp.o -o codewars_run
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/codewars_run.dir/link.d CMakeFiles/codewars_run.dir/src/main.cpp.o CMakeFiles/codewars_run.dir/src/friendOrFoe.cpp.o -o codewars_run

@@ -2,6 +2,7 @@
 ## Codewars
 ### To be solved
 #### C++
+* [friendOrFoe](https://www.codewars.com/kata/55b42574ff091733d900002f/train/cpp); [source](CPP/src/friendOrFoe.cpp); [header](CPP/include/friendOrFoe.h)
 
 ### Solved
 #### C++

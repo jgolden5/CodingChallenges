@@ -136,29 +136,29 @@ codewars_run/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/codewars_run.dir/build.make CMakeFiles/codewars_run.dir/build
 .PHONY : codewars_run/fast
 
-src/combat.o: src/combat.cpp.o
-.PHONY : src/combat.o
+src/friendOrFoe.o: src/friendOrFoe.cpp.o
+.PHONY : src/friendOrFoe.o
 
 # target to build an object file
-src/combat.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/codewars_run.dir/build.make CMakeFiles/codewars_run.dir/src/combat.cpp.o
-.PHONY : src/combat.cpp.o
+src/friendOrFoe.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/codewars_run.dir/build.make CMakeFiles/codewars_run.dir/src/friendOrFoe.cpp.o
+.PHONY : src/friendOrFoe.cpp.o
 
-src/combat.i: src/combat.cpp.i
-.PHONY : src/combat.i
+src/friendOrFoe.i: src/friendOrFoe.cpp.i
+.PHONY : src/friendOrFoe.i
 
 # target to preprocess a source file
-src/combat.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/codewars_run.dir/build.make CMakeFiles/codewars_run.dir/src/combat.cpp.i
-.PHONY : src/combat.cpp.i
+src/friendOrFoe.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/codewars_run.dir/build.make CMakeFiles/codewars_run.dir/src/friendOrFoe.cpp.i
+.PHONY : src/friendOrFoe.cpp.i
 
-src/combat.s: src/combat.cpp.s
-.PHONY : src/combat.s
+src/friendOrFoe.s: src/friendOrFoe.cpp.s
+.PHONY : src/friendOrFoe.s
 
 # target to generate assembly for a file
-src/combat.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/codewars_run.dir/build.make CMakeFiles/codewars_run.dir/src/combat.cpp.s
-.PHONY : src/combat.cpp.s
+src/friendOrFoe.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/codewars_run.dir/build.make CMakeFiles/codewars_run.dir/src/friendOrFoe.cpp.s
+.PHONY : src/friendOrFoe.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -194,9 +194,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... codewars_run"
-	@echo "... src/combat.o"
-	@echo "... src/combat.i"
-	@echo "... src/combat.s"
+	@echo "... src/friendOrFoe.o"
+	@echo "... src/friendOrFoe.i"
+	@echo "... src/friendOrFoe.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

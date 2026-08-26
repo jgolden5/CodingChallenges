@@ -7,8 +7,8 @@
 },
 {
   "directory": "/home/jonathan-11045964/CodingChallenges/CPP/build",
-  "command": "/usr/bin/c++    -o CMakeFiles/codewars_run.dir/src/combat.cpp.o -c /home/jonathan-11045964/CodingChallenges/CPP/src/combat.cpp",
-  "file": "/home/jonathan-11045964/CodingChallenges/CPP/src/combat.cpp",
-  "output": "CMakeFiles/codewars_run.dir/src/combat.cpp.o"
+  "command": "/usr/bin/c++    -o CMakeFiles/codewars_run.dir/src/friendOrFoe.cpp.o -c /home/jonathan-11045964/CodingChallenges/CPP/src/friendOrFoe.cpp",
+  "file": "/home/jonathan-11045964/CodingChallenges/CPP/src/friendOrFoe.cpp",
+  "output": "CMakeFiles/codewars_run.dir/src/friendOrFoe.cpp.o"
 }
 ]

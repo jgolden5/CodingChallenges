@@ -1,8 +1,9 @@
-#include <iostream>
-#include <ostream>
-#include "../include/combat.h"
+#include <string>
+#include <vector>
+#include "../include/friendOrFoe.h"
 
 int main() {
-  std::cout << "Health remaining = " << combat(5, 2) << std::endl;
+  const std::vector<std::string> v1 = {"John", "Billy", "Bob", "Fred"};
+  friendOrFoe(v1);
   return 0;
 }
