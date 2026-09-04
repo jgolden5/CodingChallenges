@@ -7,8 +7,8 @@
 },
 {
   "directory": "/home/jonathan-11045964/CodingChallenges/CPP/build",
-  "command": "/usr/bin/c++    -o CMakeFiles/codewars_run.dir/src/betterThanAverage.cpp.o -c /home/jonathan-11045964/CodingChallenges/CPP/src/betterThanAverage.cpp",
-  "file": "/home/jonathan-11045964/CodingChallenges/CPP/src/betterThanAverage.cpp",
-  "output": "CMakeFiles/codewars_run.dir/src/betterThanAverage.cpp.o"
+  "command": "/usr/bin/c++    -o CMakeFiles/codewars_run.dir/src/alphabetWar.cpp.o -c /home/jonathan-11045964/CodingChallenges/CPP/src/alphabetWar.cpp",
+  "file": "/home/jonathan-11045964/CodingChallenges/CPP/src/alphabetWar.cpp",
+  "output": "CMakeFiles/codewars_run.dir/src/alphabetWar.cpp.o"
 }
 ]

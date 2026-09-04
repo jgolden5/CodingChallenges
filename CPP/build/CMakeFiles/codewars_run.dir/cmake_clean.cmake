@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/codewars_run.dir/link.d"
-  "CMakeFiles/codewars_run.dir/src/betterThanAverage.cpp.o"
-  "CMakeFiles/codewars_run.dir/src/betterThanAverage.cpp.o.d"
+  "CMakeFiles/codewars_run.dir/src/alphabetWar.cpp.o"
+  "CMakeFiles/codewars_run.dir/src/alphabetWar.cpp.o.d"
   "CMakeFiles/codewars_run.dir/src/main.cpp.o"
   "CMakeFiles/codewars_run.dir/src/main.cpp.o.d"
   "codewars_run"

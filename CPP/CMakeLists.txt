@@ -4,8 +4,8 @@ project(Codewars)
 
 set(SOURCES
   src/main.cpp
-  src/betterThanAverage.cpp
-  include/betterThanAverage.h
+  src/alphabetWar.cpp
+  include/alphabetWar.h
 )
 
 add_executable(codewars_run ${SOURCES})

@@ -86,30 +86,30 @@ CMakeFiles/codewars_run.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/codewars_run.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jonathan-11045964/CodingChallenges/CPP/src/main.cpp -o CMakeFiles/codewars_run.dir/src/main.cpp.s
 
-CMakeFiles/codewars_run.dir/src/betterThanAverage.cpp.o: CMakeFiles/codewars_run.dir/flags.make
-CMakeFiles/codewars_run.dir/src/betterThanAverage.cpp.o: /home/jonathan-11045964/CodingChallenges/CPP/src/betterThanAverage.cpp
-CMakeFiles/codewars_run.dir/src/betterThanAverage.cpp.o: CMakeFiles/codewars_run.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jonathan-11045964/CodingChallenges/CPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/codewars_run.dir/src/betterThanAverage.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/codewars_run.dir/src/betterThanAverage.cpp.o -MF CMakeFiles/codewars_run.dir/src/betterThanAverage.cpp.o.d -o CMakeFiles/codewars_run.dir/src/betterThanAverage.cpp.o -c /home/jonathan-11045964/CodingChallenges/CPP/src/betterThanAverage.cpp
+CMakeFiles/codewars_run.dir/src/alphabetWar.cpp.o: CMakeFiles/codewars_run.dir/flags.make
+CMakeFiles/codewars_run.dir/src/alphabetWar.cpp.o: /home/jonathan-11045964/CodingChallenges/CPP/src/alphabetWar.cpp
+CMakeFiles/codewars_run.dir/src/alphabetWar.cpp.o: CMakeFiles/codewars_run.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jonathan-11045964/CodingChallenges/CPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/codewars_run.dir/src/alphabetWar.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/codewars_run.dir/src/alphabetWar.cpp.o -MF CMakeFiles/codewars_run.dir/src/alphabetWar.cpp.o.d -o CMakeFiles/codewars_run.dir/src/alphabetWar.cpp.o -c /home/jonathan-11045964/CodingChallenges/CPP/src/alphabetWar.cpp
 
-CMakeFiles/codewars_run.dir/src/betterThanAverage.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/codewars_run.dir/src/betterThanAverage.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jonathan-11045964/CodingChallenges/CPP/src/betterThanAverage.cpp > CMakeFiles/codewars_run.dir/src/betterThanAverage.cpp.i
+CMakeFiles/codewars_run.dir/src/alphabetWar.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/codewars_run.dir/src/alphabetWar.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jonathan-11045964/CodingChallenges/CPP/src/alphabetWar.cpp > CMakeFiles/codewars_run.dir/src/alphabetWar.cpp.i
 
-CMakeFiles/codewars_run.dir/src/betterThanAverage.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/codewars_run.dir/src/betterThanAverage.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jonathan-11045964/CodingChallenges/CPP/src/betterThanAverage.cpp -o CMakeFiles/codewars_run.dir/src/betterThanAverage.cpp.s
+CMakeFiles/codewars_run.dir/src/alphabetWar.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/codewars_run.dir/src/alphabetWar.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jonathan-11045964/CodingChallenges/CPP/src/alphabetWar.cpp -o CMakeFiles/codewars_run.dir/src/alphabetWar.cpp.s
 
 # Object files for target codewars_run
 codewars_run_OBJECTS = \
 "CMakeFiles/codewars_run.dir/src/main.cpp.o" \
-"CMakeFiles/codewars_run.dir/src/betterThanAverage.cpp.o"
+"CMakeFiles/codewars_run.dir/src/alphabetWar.cpp.o"
 
 # External object files for target codewars_run
 codewars_run_EXTERNAL_OBJECTS =
 
 codewars_run: CMakeFiles/codewars_run.dir/src/main.cpp.o
-codewars_run: CMakeFiles/codewars_run.dir/src/betterThanAverage.cpp.o
+codewars_run: CMakeFiles/codewars_run.dir/src/alphabetWar.cpp.o
 codewars_run: CMakeFiles/codewars_run.dir/build.make
 codewars_run: CMakeFiles/codewars_run.dir/compiler_depend.ts
 codewars_run: CMakeFiles/codewars_run.dir/link.txt

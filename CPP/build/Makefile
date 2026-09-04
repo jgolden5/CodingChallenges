@@ -136,29 +136,29 @@ codewars_run/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/codewars_run.dir/build.make CMakeFiles/codewars_run.dir/build
 .PHONY : codewars_run/fast
 
-src/betterThanAverage.o: src/betterThanAverage.cpp.o
-.PHONY : src/betterThanAverage.o
+src/alphabetWar.o: src/alphabetWar.cpp.o
+.PHONY : src/alphabetWar.o
 
 # target to build an object file
-src/betterThanAverage.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/codewars_run.dir/build.make CMakeFiles/codewars_run.dir/src/betterThanAverage.cpp.o
-.PHONY : src/betterThanAverage.cpp.o
+src/alphabetWar.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/codewars_run.dir/build.make CMakeFiles/codewars_run.dir/src/alphabetWar.cpp.o
+.PHONY : src/alphabetWar.cpp.o
 
-src/betterThanAverage.i: src/betterThanAverage.cpp.i
-.PHONY : src/betterThanAverage.i
+src/alphabetWar.i: src/alphabetWar.cpp.i
+.PHONY : src/alphabetWar.i
 
 # target to preprocess a source file
-src/betterThanAverage.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/codewars_run.dir/build.make CMakeFiles/codewars_run.dir/src/betterThanAverage.cpp.i
-.PHONY : src/betterThanAverage.cpp.i
+src/alphabetWar.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/codewars_run.dir/build.make CMakeFiles/codewars_run.dir/src/alphabetWar.cpp.i
+.PHONY : src/alphabetWar.cpp.i
 
-src/betterThanAverage.s: src/betterThanAverage.cpp.s
-.PHONY : src/betterThanAverage.s
+src/alphabetWar.s: src/alphabetWar.cpp.s
+.PHONY : src/alphabetWar.s
 
 # target to generate assembly for a file
-src/betterThanAverage.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/codewars_run.dir/build.make CMakeFiles/codewars_run.dir/src/betterThanAverage.cpp.s
-.PHONY : src/betterThanAverage.cpp.s
+src/alphabetWar.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/codewars_run.dir/build.make CMakeFiles/codewars_run.dir/src/alphabetWar.cpp.s
+.PHONY : src/alphabetWar.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -194,9 +194,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... codewars_run"
-	@echo "... src/betterThanAverage.o"
-	@echo "... src/betterThanAverage.i"
-	@echo "... src/betterThanAverage.s"
+	@echo "... src/alphabetWar.o"
+	@echo "... src/alphabetWar.i"
+	@echo "... src/alphabetWar.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

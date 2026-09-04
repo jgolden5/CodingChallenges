@@ -1,11 +1,12 @@
 #include <iostream>
-#include <vector>
-#include "../include/betterThanAverage.h"
+#include "../include/alphabetWar.h"
 
 int main() {
-  const std::vector<int> classPoints = { 90, 91, 92 };
-  const int myPoints = 91;
-  const bool iAmBetterThanAverage = betterThanAverage(classPoints, myPoints);
-  std::cout << iAmBetterThanAverage << std::endl;
+  const std::string w1 = alphabetWar("wmpqdbsz");
+  std::cout << w1 << std::endl;
+  const std::string w2 = alphabetWar("wmpqdbbz");
+  std::cout << w2 << std::endl;
+  const std::string w3 = alphabetWar("zwmpqdbsz");
+  std::cout << w3 << std::endl;
   return 0;
 }
