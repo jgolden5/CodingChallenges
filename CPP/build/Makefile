@@ -136,29 +136,29 @@ codewars_run/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/codewars_run.dir/build.make CMakeFiles/codewars_run.dir/build
 .PHONY : codewars_run/fast
 
-src/findDeletedNumber.o: src/findDeletedNumber.cpp.o
-.PHONY : src/findDeletedNumber.o
+src/betterThanAverage.o: src/betterThanAverage.cpp.o
+.PHONY : src/betterThanAverage.o
 
 # target to build an object file
-src/findDeletedNumber.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/codewars_run.dir/build.make CMakeFiles/codewars_run.dir/src/findDeletedNumber.cpp.o
-.PHONY : src/findDeletedNumber.cpp.o
+src/betterThanAverage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/codewars_run.dir/build.make CMakeFiles/codewars_run.dir/src/betterThanAverage.cpp.o
+.PHONY : src/betterThanAverage.cpp.o
 
-src/findDeletedNumber.i: src/findDeletedNumber.cpp.i
-.PHONY : src/findDeletedNumber.i
+src/betterThanAverage.i: src/betterThanAverage.cpp.i
+.PHONY : src/betterThanAverage.i
 
 # target to preprocess a source file
-src/findDeletedNumber.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/codewars_run.dir/build.make CMakeFiles/codewars_run.dir/src/findDeletedNumber.cpp.i
-.PHONY : src/findDeletedNumber.cpp.i
+src/betterThanAverage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/codewars_run.dir/build.make CMakeFiles/codewars_run.dir/src/betterThanAverage.cpp.i
+.PHONY : src/betterThanAverage.cpp.i
 
-src/findDeletedNumber.s: src/findDeletedNumber.cpp.s
-.PHONY : src/findDeletedNumber.s
+src/betterThanAverage.s: src/betterThanAverage.cpp.s
+.PHONY : src/betterThanAverage.s
 
 # target to generate assembly for a file
-src/findDeletedNumber.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/codewars_run.dir/build.make CMakeFiles/codewars_run.dir/src/findDeletedNumber.cpp.s
-.PHONY : src/findDeletedNumber.cpp.s
+src/betterThanAverage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/codewars_run.dir/build.make CMakeFiles/codewars_run.dir/src/betterThanAverage.cpp.s
+.PHONY : src/betterThanAverage.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -194,9 +194,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... codewars_run"
-	@echo "... src/findDeletedNumber.o"
-	@echo "... src/findDeletedNumber.i"
-	@echo "... src/findDeletedNumber.s"
+	@echo "... src/betterThanAverage.o"
+	@echo "... src/betterThanAverage.i"
+	@echo "... src/betterThanAverage.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

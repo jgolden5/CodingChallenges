@@ -1,10 +1,11 @@
 #include <iostream>
-#include <list>
-#include "../include/findDeletedNumber.h"
+#include <vector>
+#include "../include/betterThanAverage.h"
 
 int main() {
-  const std::list<int> starting = {1, 2, 3, 4, 5, 6};
-  const std::list<int> mixed = {2, 4, 6, 3, 1};
-  std::cout << findDeletedNumber(starting, mixed) << std::endl;
+  const std::vector<int> classPoints = { 90, 91, 92 };
+  const int myPoints = 91;
+  const bool iAmBetterThanAverage = betterThanAverage(classPoints, myPoints);
+  std::cout << iAmBetterThanAverage << std::endl;
   return 0;
 }

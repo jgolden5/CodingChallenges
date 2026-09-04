@@ -3,7 +3,7 @@ codewars_run: \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o \
   /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o \
   CMakeFiles/codewars_run.dir/src/main.cpp.o \
-  CMakeFiles/codewars_run.dir/src/findDeletedNumber.cpp.o \
+  CMakeFiles/codewars_run.dir/src/betterThanAverage.cpp.o \
   /usr/lib/gcc/x86_64-linux-gnu/15/libstdc++.so \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libm.so \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libm.so \
@@ -41,7 +41,7 @@ codewars_run: \
 
 CMakeFiles/codewars_run.dir/src/main.cpp.o:
 
-CMakeFiles/codewars_run.dir/src/findDeletedNumber.cpp.o:
+CMakeFiles/codewars_run.dir/src/betterThanAverage.cpp.o:
 
 /usr/lib/gcc/x86_64-linux-gnu/15/libstdc++.so:
 

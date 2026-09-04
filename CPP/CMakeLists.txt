@@ -4,8 +4,8 @@ project(Codewars)
 
 set(SOURCES
   src/main.cpp
-  src/findDeletedNumber.cpp
-  include/findDeletedNumber.h
+  src/betterThanAverage.cpp
+  include/betterThanAverage.h
 )
 
 add_executable(codewars_run ${SOURCES})
